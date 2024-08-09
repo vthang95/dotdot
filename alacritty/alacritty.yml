@@ -1,0 +1,35 @@
+font:
+  normal:
+    family: BerkeleyMono Nerd Font #JetBrainsMono Nerd Font #Berkeley
+    style: Regular
+
+  size: 16.0
+  use-thin-strokes: true
+  offset:
+    y: 3
+  ligatures: true
+
+import:
+  - /Users/vthang/.config/alacritty/rose-pine-dawn.toml
+
+key_bindings:
+  # New tmux tab
+  - { key: T, mods: Command, chars: "\x02\x63" }
+  # Select window 1-9
+  - { key: Key1, mods: Command, chars: "\x02\x31" }
+  - { key: Key2, mods: Command, chars: "\x02\x32" }
+  - { key: Key3, mods: Command, chars: "\x02\x33" }
+  - { key: Key4, mods: Command, chars: "\x02\x34" }
+  - { key: Key5, mods: Command, chars: "\x02\x35" }
+  - { key: Key6, mods: Command, chars: "\x02\x36" }
+  - { key: Key7, mods: Command, chars: "\x02\x37" }
+  - { key: Key8, mods: Command, chars: "\x02\x38" }
+  - { key: Key9, mods: Command, chars: "\x02\x39" }
+  # Kill the current tmux pane (and window if last pane)
+  - { key: W, mods: Command, chars: "\x02\x78" }
+  # Detach the current tmux client
+  - { key: Q, mods: Command, chars: "\x02\x64" }
+  # Split the current pane into two, left and right
+  - { key: D, mods: Command, chars: "\x02\x25" }
+  # Split the current pane into two, top and bottom.
+  - { key: D, mods: Command|Shift, chars: "\x02\x22" }

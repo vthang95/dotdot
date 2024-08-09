@@ -1,0 +1,84 @@
+import = ["/home/vthang/.config/alacritty/rose-pine.toml"]
+
+[shell]
+program = "/bin/zsh"
+
+[font]
+size = 13
+
+[font.normal]
+family = "BerkeleyMono Nerd Font"
+style = "Regular"
+
+[font.offset]
+y = 3
+
+[[keyboard.bindings]]
+chars = "\u0002c"
+key = "T"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00021"
+key = "Key1"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00022"
+key = "Key2"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00023"
+key = "Key3"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00024"
+key = "Key4"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00025"
+key = "Key5"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00026"
+key = "Key6"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00027"
+key = "Key7"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00028"
+key = "Key8"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u00029"
+key = "Key9"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002x"
+key = "W"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002d"
+key = "Q"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002%"
+key = "D"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u0002\""
+key = "D"
+mods = "Alt|Shift"
