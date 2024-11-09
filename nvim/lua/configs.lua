@@ -1,8 +1,8 @@
 -- vim.g.colors_name = 'tender'
 -- vim.g.ayucolor = 'dark'
--- vim.cmd.colorscheme 'melange'
+vim.cmd.colorscheme 'melange'
 
-require("rose-pine").setup({
+--[[ require("rose-pine").setup({
     variant = "auto", -- auto, main, moon, or dawn
     dark_variant = "main", -- main, moon, or dawn
     dim_inactive_windows = false,
@@ -69,7 +69,7 @@ require("rose-pine").setup({
     end,
 })
 
-vim.cmd("colorscheme rose-pine-dawn")
+vim.cmd("colorscheme rose-pine-dawn") ]]
 
 --[[ require('kanagawa').setup({
     compile = false,             -- enable compiling the colorscheme

@@ -1,6 +1,5 @@
-import = ["/home/vthang/.config/alacritty/rose-pine.toml"]
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 
 [font]
@@ -82,3 +81,8 @@ mods = "Alt"
 chars = "\u0002\""
 key = "D"
 mods = "Alt|Shift"
+
+[general]
+import = ["/home/vthang/.config/alacritty/rose-pine-dark.toml"]
+
+[terminal]

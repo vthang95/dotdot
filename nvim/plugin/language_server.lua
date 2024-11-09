@@ -9,13 +9,12 @@ local on_attach = function(client, bufnr)
 end
 
 
-nvim_lsp.tsserver.setup({
+nvim_lsp.ts_ls.setup({
   capabilities = capabilities,
   on_attach = on_attach,
   filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
   root_dir = nvim_lsp.util.root_pattern("package.json"),
   single_file_support = false,
-  cmd = { "typescript-language-server", "--stdio" }
 })
 
 nvim_lsp.gopls.setup({
